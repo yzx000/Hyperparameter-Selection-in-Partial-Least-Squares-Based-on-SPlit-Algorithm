@@ -1,4 +1,4 @@
-#2、Kennard–Stone-based hyperparameter selection in partial least squares
+#Kennard–Stone-based hyperparameter selection in partial least squares
 
 
 ks <- function(X) {
@@ -74,4 +74,5 @@ for (proportion in seq(0.2, 0.8, by = 0.1)) {
 }
 
 print(results_list)
+
 
