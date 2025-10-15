@@ -1,4 +1,4 @@
-#1、SPlit-based hyperparameter selection in partial least squares (SS-PLS)
+#SPlit-based hyperparameter selection in partial least squares (SS-PLS)
 
 library(SPlit)     
 library(caret)      
@@ -36,4 +36,5 @@ run_cross_validation <- function(data, nSplits) {
   return(results)
 }
 results_list_10 <- run_cross_validation(data, split_counts[[1]])
+
 
