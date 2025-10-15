@@ -1,4 +1,4 @@
-#5、Monte Carlo-based hyperparameter selection in partial least squares
+#Monte Carlo-based hyperparameter selection in partial least squares
 
 n_iterations <- 100  
 train_ratio <- 0.8  
@@ -25,4 +25,5 @@ for (n in 1:n_iterations) {
   
   results_list[[as.character(n)]] <- result
 }
+
 
