@@ -1,4 +1,4 @@
-#3、SPXY-based hyperparameter selection in partial least squares
+#SPXY-based hyperparameter selection in partial least squares
 
 spxy <- function(data, Ncal) {
   
@@ -82,4 +82,5 @@ for (ratio in ratios) {
   results_list[[as.character(ratio)]] <- result
   
 }
+
 
